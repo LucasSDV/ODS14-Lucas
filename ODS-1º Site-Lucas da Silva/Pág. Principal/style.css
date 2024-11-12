@@ -1,0 +1,66 @@
+body{
+background-color: rgb(2, 26, 61);
+}
+.parte1{
+    background-image: url('imagens/Fundomar.jpg');
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
+    border: 2px;
+    border-radius: 50px;
+    padding: 0px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: azure;
+    font-size: xx-large;
+    p{
+        position: relative;
+        height: 10px;
+        bottom: 30px;
+    }
+}
+.parte2{
+    .quadro1p{
+        background-color: rgb(167, 235, 255);
+        border: 2px solid rgb(167, 235, 255);
+        border-radius: 100px;
+        height: 290px;
+        width: 1280px;
+    }
+    p{
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       font-size: x-large;
+       position: relative;
+       top: 30px;
+       left: 50px;
+    }
+    img{
+        position: relative;
+        left: 960px;
+        top: 40px;
+    }
+}
+.parte3{
+    background-position: 100%;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    h1{
+        font-size: xx-large;
+        color: azure;
+    }
+    p{
+        font-size: larger;
+        position: relative;
+        bottom: 20px;
+        color: azure;
+    }
+    button{
+        position: relative;
+        bottom: 20px;
+        height: 100px;
+        width: 320px;
+        border: 0px;
+        border-radius: 100px;
+        font-size: x-large;
+    }
+}
